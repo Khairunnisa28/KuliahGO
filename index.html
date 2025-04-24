@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KuliahGO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+    }
+
+    header h1 {
+      text-align: center;
+      padding: 2rem 0 1rem;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .section {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .deskripsi img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .universities-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .university {
+      max-width: 200px;
+      text-align: center;
+    }
+
+    .university img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .faq .accordion-button {
+      font-weight: 600;
+    }
+
+    .section-title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+      font-size: 1.75rem;
+    }
+
+    table th,
+    table td {
+      vertical-align: middle !important;
+    }
+  </style>
+</head>
+
+<>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">KuliahGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#universitas">TOP 5 Universitas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kalender">Kalender Seleksi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#statistik">Statistik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faqAccordion">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary ms-3" href="#daftar">Daftar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Header -->
+    <header>
+      <h1>KuliahGO</h1>
+    </header>
+
+    <!-- Deskripsi -->
+    <section class="section deskripsi" id="deskripsi">
+      <img src="./Asset/foto.webp" alt="deskripsi" />
+      <p>
+        KuliahGO adalah platform web inovatif yang dirancang untuk membantu siswa menemukan universitas impian mereka,
+        baik di tingkat nasional maupun internasional. Melalui berbagai fitur unggulan, platform ini menjadi pendamping
+        terbaik bagi calon mahasiswa yang ingin mempersiapkan diri menghadapi dunia perkuliahan dengan lebih percaya
+        diri.<br><br>
+
+        Dalam proses pencarian universitas, KuliahGO menyediakan informasi lengkap tentang berbagai kampus, mulai dari
+        akreditasi, fasilitas, hingga peluang karier setelah lulus. Siswa dapat membandingkan berbagai pilihan sesuai
+        dengan minat dan jurusan yang diinginkan. Selain itu, platform ini juga memberikan panduan strategi agar lebih
+        siap dalam menghadapi seleksi masuk perguruan tinggi, baik melalui jalur UTBK-SNBT maupun SNBP. Tersedia pula
+        latihan soal, simulasi tryout, serta pembahasan materi yang membantu siswa memahami pola soal dan meningkatkan
+        peluang mereka untuk lolos seleksi.<br><br>
+
+        Tidak hanya berfokus pada informasi dan materi akademik, KuliahGO juga menghadirkan komunitas belajar dan
+        mentoring yang memungkinkan siswa berbagi pengalaman, berdiskusi, serta mendapatkan bimbingan langsung dari
+        mahasiswa dan alumni universitas ternama. Dengan adanya dukungan komunitas ini, siswa dapat memperoleh motivasi
+        dan arahan yang lebih jelas dalam perjalanan mereka menuju jenjang pendidikan tinggi.<br><br>
+
+        KuliahGO hadir untuk memastikan setiap siswa memiliki akses ke informasi dan persiapan terbaik dalam meraih
+        kampus impian mereka. Dengan berbagai fitur yang disediakan, platform ini menjadi solusi lengkap bagi siapa saja
+        yang ingin melangkah menuju masa depan akademik yang lebih cerah.<br>
+      </p>
+    </section>
+
+    <!-- Top 5 Universitas -->
+    <section class="section" id="universitas">
+      <h2 class="section-title">TOP 5 Universitas Dunia</h2>
+      <div class="universities-list">
+        <div class="university">
+          <img
+            src="https://cdn.britannica.com/69/141169-050-CD5892EB/Baker-Library-Harvard-Business-School-Boston-University.jpg"
+            alt="Harvard">
+          <p><strong>1. Harvard University</strong><br>USA</p>
+        </div>
+        <div class="university">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1YhcWqemhazOkrUbU01aIf_OkEhciKhj7Tw&s"
+            alt="Stanford">
+          <p><strong>2. Stanford University</strong><br>USA</p>
+        </div>
+        <div class="university">
+          <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/a8/8d.jpg" alt="MIT">
+          <p><strong>3. MIT</strong><br>USA</p>
+        </div>
+        <div class="university">
+          <img
+            src="https://ichef.bbci.co.uk/ace/standard/2048/cpsprodpb/2c03/live/64d39070-8596-11ef-addc-5556603eb4c1.jpg"
+            alt="Oxford">
+          <p><strong>4. Oxford</strong><br>UK</p>
+        </div>
+        <div class="university">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Corpus_Christi_College_New_Court%2C_Cambridge%2C_UK_-_Diliff.jpg"
+            alt="Cambridge">
+          <p><strong>5. Cambridge</strong><br>UK</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kalender Seleksi -->
+    <section class="section" id="kalender">
+      <h2 class="section-title">Kalender Seleksi Masuk PTN 2025</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered text-center">
+          <thead class="table-dark">
+            <tr>
+              <th>Jenis Seleksi</th>
+              <th>Pendaftaran</th>
+              <th>Ujian</th>
+              <th>Pengumuman</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SNBP</td>
+              <td>15 Jan – 28 Feb 2025</td>
+              <td>Tidak Ada</td>
+              <td>26 Maret 2025</td>
+            </tr>
+            <tr>
+              <td>UTBK-SNBT</td>
+              <td>21 Mar – 5 Apr 2025</td>
+              <td>29 Apr – 10 Mei 2025</td>
+              <td>17 Juni 2025</td>
+            </tr>
+            <tr>
+              <td>Mandiri PTN</td>
+              <td>Mei – Jul 2025<br><small>*Tergantung kampus</small></td>
+              <td>Juni – Jul 2025</td>
+              <td>Jul – Ags 2025</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-center text-muted"><em>*Tanggal dapat berubah sesuai ketentuan resmi dari Kemendikbud dan
+          masing-masing universitas.</em></p>
+    </section>
+
+    <!-- Statistik -->
+    <section class="section" id="statistik">
+      <h2 class="section-title text-center mb-4">Statistik & Fakta Pendidikan</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="p-4 bg-light rounded shadow-sm">
+            <h3>8.5 Juta+</h3>
+            <p>Mahasiswa aktif di Indonesia (2024)</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-light rounded shadow-sm">
+            <h3>4.000+</h3>
+            <p>Jumlah perguruan tinggi di Indonesia</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-light rounded shadow-sm">
+            <h3>5</h3>
+            <p>PTN Indonesia masuk 500 besar dunia (QS Rankings 2024)</p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-4">
+        <div class="col-md-4">
+          <div class="p-4 bg-light rounded shadow-sm">
+            <h3>60%</h3>
+            <p>Lulusan SMA/SMK memilih jalur SNBT</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-light rounded shadow-sm">
+            <h3>1 dari 5</h3>
+            <p>Mahasiswa menerima beasiswa</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-light rounded shadow-sm">
+            <h3>40%</h3>
+            <p>Lulusan bekerja di bidang berbeda dari jurusannya</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq py-5">
+      <h2 class="section-title text-center mb-4">Pertanyaan yang Sering Diajukan (FAQ)</h2>
+      <div class="accordion" id="faqAccordion">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+              aria-expanded="true" aria-controls="collapse1">
+              Apa itu KuliahGO?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              KuliahGO adalah platform digital yang membantu siswa menemukan universitas impian mereka, lengkap dengan
+              informasi kampus, tryout UTBK, mentoring, dan komunitas belajar.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              Apakah KuliahGO gratis?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Ya, sebagian besar fitur dasar dapat digunakan secara gratis. Namun, terdapat fitur premium seperti
+              pembahasan soal lengkap, tryout premium, dan sesi mentoring yang tersedia dengan biaya tertentu.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              Apakah saya bisa mencari universitas luar negeri melalui KuliahGO?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Bisa! KuliahGO menyediakan informasi universitas baik di dalam maupun luar negeri, termasuk persyaratan
+              masuk, beasiswa, dan jalur pendaftaran.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              Apakah ada simulasi tryout UTBK di KuliahGO?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Tentu! Kami menyediakan simulasi tryout UTBK lengkap dengan hasil skor, pembahasan soal, serta
+              pemeringkatan berdasarkan hasil tryout.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              Bagaimana cara bergabung dalam komunitas belajar KuliahGO?
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Kamu bisa bergabung melalui menu “Komunitas” di dashboard KuliahGO setelah mendaftar. Di sana kamu dapat
+              berdiskusi, tanya-jawab, dan ikut mentoring dengan alumni kampus ternama.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="daftar">
+      <h2 class="section-title">Daftar Sekarang</h2>
+      <p class="text-center">
+        Mulai perjalananmu menuju kampus impian dengan mendaftar di KuliahGO!
+      </p>
+      <!-- Add the registration form or other content here -->
+    </section>
+
+  <footer class="bg-light py-4 text-center">
+    <p>&copy; 2025 KuliahGO. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"></script>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
